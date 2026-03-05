@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Pudim Moderno</title>
+    
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Link para Font Awesome (ícones das redes sociais) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="logo">🍮 Pudim</h1>
+            <nav class="menu">
+                <a href="#historia">História</a>
+                <a href="#curiosidades">Curiosidades</a>
+                <a href="#receita">Receita</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SEÇÃO PRINCIPAL (HERO) -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-conteudo">
+                <h2>O site mais doce da internet</h2>
+                <p>Simples, delicioso e inesquecível - exatamente como um bom pudim deve ser!</p>
+                <a href="#historia" class="botao">Conheça a história</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO HISTÓRIA -->
+    <section id="historia" class="historia">
+        <div class="container">
+            <h2 class="titulo-secao">A História do Pudim</h2>
+            <div class="historia-grid">
+                <div class="historia-texto">
+                    <p>O pudim é uma sobremesa que atravessa séculos! Sua origem remonta ao Império Romano, onde era feito com carne, mas a versão doce que conhecemos hoje surgiu na Idade Média na Europa.</p>
+                    <p>No Brasil, o pudim de leite condensado se popularizou na década de 1940, com a industrialização do leite condensado pela Nestlé. Desde então, tornou-se uma das sobremesas mais amadas do país!</p>
+                    <p>O site pudim.com.br foi criado em 2000 e se tornou um fenômeno da internet brasileira, sendo um dos domínios mais antigos ainda no ar!</p>
+                </div>
+                <div class="historia-imagem">
+                    <!-- Você precisa baixar uma imagem de pudim e colocar na pasta img -->
+                    <img src="img/pudim.jpg" alt="Pudim delicioso">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CURIOSIDADES -->
+    <section id="curiosidades" class="curiosidades">
+        <div class="container">
+            <h2 class="titulo-secao">Curiosidades</h2>
+            <div class="cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="fas fa-globe-americas icone-card"></i>
+                    <h3>Fenômeno da Internet</h3>
+                    <p>O pudim.com.br é um dos sites brasileiros mais antigos da internet, e agora ganhou uma nova!</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="fas fa-chart-line icone-card"></i>
+                    <h3>Milhões de Acessos</h3>
+                    <p>Mesmo sendo apenas uma foto de pudim, o site já recebeu milhões de visitas ao longo dos anos.</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="fas fa-star icone-card"></i>
+                    <h3>Cultura Pop</h3>
+                    <p>O site já foi mencionado em programas de TV, memes e virou símbolo da simplicidade da internet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO RECEITA -->
+    <section id="receita" class="receita">
+        <div class="container">
+            <h2 class="titulo-secao">Receita Clássica</h2>
+            <div class="receita-grid">
+                <div class="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        <li>1 lata de leite condensado</li>
+                        <li>2 latas de leite (use a lata do leite condensado como medida)</li>
+                        <li>3 ovos</li>
+                        <li>1 xícara de açúcar (para a calda)</li>
+                    </ul>
+                </div>
+                <div class="modo-preparo">
+                    <h3>Modo de Preparo</h3>
+                    <ol>
+                        <li>Derreta o açúcar para fazer a calda e caramelize a forma</li>
+                        <li>Bata todos os ingredientes no liquidificador</li>
+                        <li>Despeje na forma caramelizada</li>
+                        <li>Asse em banho-maria por aproximadamente 1 hora</li>
+                        <li>Leve à geladeira por 4 horas antes de desenformar</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO COMPARTILHAMENTO -->
+    <section class="compartilhar">
+        <div class="container">
+            <h3>Compartilhe essa delícia!</h3>
+            <div class="botoes-sociais">
+                <!-- Botões de compartilhamento com ícones -->
+                <a href="#" class="btn-social facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=pudim.com.br', '_blank')">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="#" class="btn-social twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Conheça%20o%20site%20mais%20doce%20da%20internet!%20pudim.com.br', '_blank')">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="#" class="btn-social whatsapp" onclick="window.open('https://wa.me/?text=Conheça%20o%20site%20mais%20doce%20da%20internet!%20pudim.com.br', '_blank')">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="#" class="btn-social pinterest" onclick="window.open('https://pinterest.com/pin/create/button/?url=pudim.com.br&media=img/pudim.jpg&description=Pudim%20delicioso', '_blank')">
+                    <i class="fab fa-pinterest"></i> Pinterest
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2026 Pudim Moderno - Uma remake do pudim.com.br</p>
+            <p>Desenvolvido com 🍮 por Júlia Ferraz</p>
+            <p class="creditos">Créditos: 
+                - Site tudo gostoso
+                - pudim.com.br
+                - receitas nestlé
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
