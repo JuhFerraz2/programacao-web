@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> DOM: Página interação com Java script</h1>
+
+    <hr>
+
+    <button id="Bot1">Incrementar</button>
+
+    <button id="Bot2">Decrementar</button>
+
+    <hr>
+
+    <label for="Texto">Digite aqui</label>
+    <input type="text" placeholder="Digite Aqui" id="Texto">
+    <p>Texto Digitado: <span id="resultado"></span></p>
+
+     <div class="counter">
+            Número de caracteres (sem espaços): <span id="Resultado">0</span>
+        </div>
+
+
+    <hr>
+
+    <form id="formLista"> Escolha o tipo de lista
+
+        <label id="Tipodelista">Tipo de Lista</label>
+        <select name="Lista" id="Lista">
+            <option value="">Escolha a lista desejada</option>
+            <option value="Listaordedada">Lista Ordenada</option>
+            <option value="Listanoor">Lista não ordenada</option>
+        </select>
+    </form>
+    <button onclick="tipoDaLista()">Adicionar Nova Lista</button>
+    
+    <h2>Listas Criadas:</h2>
+    <div id="container-listas"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
